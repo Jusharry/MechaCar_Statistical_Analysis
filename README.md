@@ -9,8 +9,8 @@ It is also clear from the results that the slope of the linear model is NOT zero
 I believe that this linear model does a good job of predicting the the mpg of the Mechacar prototypes based on the fact that while only two of the factors had significant values below the null hypothesis, the summary r-squared value is 0.71
 
 ## Sumary Statistics on Suspension Coils
-Based on the information gathered the current design does NOT meet  the design specification in total as the total variance is 62.29 or 6229 lb/inch square. 
-When compared individually the only Lot that meets the specification is Lot 1 at 0.9795 or 97.95 lb/inch square
+Based on the information gathered the current design does meet  the design specification in total as the total variance is 62.29 . 
+When compared individually the only Lot that doesnt meet the specification is Lot 3 at 170.
 ![screenshot](total_summary.png)
 
 ![screenshot](lot_summary.png)
