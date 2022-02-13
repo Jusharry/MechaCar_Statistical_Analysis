@@ -32,12 +32,12 @@ Lot 3 does not reject the null hypothesis with a value above 0.05
 
 ## Study Design :MechaCar vs Competition
 In this test AutosRUs would seek to determine if the MechaCar would be successful when compared to its competitors by measuring these specific benchmarks:
-*Cost
-*Safety Rating
-*Highway fuel economy(mpg)
-*City fuel economy(mpg)
-*Trim levels
-*Tech features
+* Cost
+* Safety Rating
+* Highway fuel economy(mpg)
+* City fuel economy(mpg)
+* Trim levels
+* Features
 
 
 The null hypothesis would be that MechaCar would not be any more desirable than similiar competition .
