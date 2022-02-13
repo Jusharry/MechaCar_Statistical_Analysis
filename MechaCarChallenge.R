@@ -14,6 +14,8 @@ lot_summary <- car_parts%>% group_by(Manufacturing_Lot)%>% summarize(Mean=mean(P
 sample_test <- car_parts %>% sample_n(50)
 t.test((sample_test$PSI),mu=mean(car_parts$PSI))
 
+t.test((car_parts$PSI),mu=mean(car_parts$PSI))
+
 lot1_sample <- subset(car_parts,Manufacturing_Lot=='Lot1')
 t.test((lot1_sample$PSI),mu=mean(car_parts$PSI))
 
@@ -22,4 +24,7 @@ t.test((lot2_sample$PSI),mu=mean(car_parts$PSI))
 
 lot3_sample <- subset(car_parts,Manufacturing_Lot=='Lot3')
 t.test((lot3_sample$PSI),mu=mean(car_parts$PSI))
+
+
+
 
